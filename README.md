@@ -6,6 +6,22 @@ This Sphinx extension adds a toggleable dark mode to the Read the Docs theme.
 A little icon is added in the bottom right hand corner which allows the user
 to switch between light or dark mode.
 
+## Local installation for Gaia Sky
+
+First, build the project:
+
+```bash
+python3 setup.py sdist
+```
+
+This will create a `dist/` directory, with a package `sphinx_rtd_dark_mode-[version].tar.gz` inside. You can install this package directly from pipenv.
+
+```bash
+pipenv install /path/to/sphinx_rtd_dark_mode/dist/sphinx_rtd_dark_mode-1.3.0.tar.gz
+```
+
+That's it.
+
 ## Installation
 
 **Python 3.4 or higher is required**
