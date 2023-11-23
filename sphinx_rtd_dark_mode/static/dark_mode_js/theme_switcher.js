@@ -14,10 +14,6 @@ $(document).ready(() => {
   createThemeSwitcher();
   $('#themeSwitcher').click(switchTheme);
 
-  $('footer').html(
-    $('footer').html() +
-      '<a href="https://github.com/MrDogeBro/sphinx_rtd_dark_mode">Dark theme</a> provided by <a href="http://mrdogebro.com">MrDogeBro</a>.'
-  );
 });
 
 const switchTheme = () => {
