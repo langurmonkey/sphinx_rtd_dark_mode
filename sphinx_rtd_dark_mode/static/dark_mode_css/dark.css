@@ -523,3 +523,6 @@ html[data-theme="dark"] .guilabel {
 html[data-theme="dark"] .filter-invert {
   filter: invert(1);
 }
+html[data-theme="dark"] .math {
+  filter: invert(1);
+}
