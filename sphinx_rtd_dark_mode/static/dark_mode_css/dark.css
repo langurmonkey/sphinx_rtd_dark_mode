@@ -68,6 +68,7 @@ html[data-theme="dark"] .wy-nav-content a:visited {
 }
 
 html[data-theme="dark"] .btn-neutral {
+  color: #c1c1c1 !important;
   background-color: #17181c !important;
 }
 
@@ -76,7 +77,7 @@ html[data-theme="dark"] .btn-neutral:hover {
 }
 
 html[data-theme="dark"] .btn-neutral:visited {
-  color: #c1c1c1 !important;
+  color: #5ea5eb !important;
 }
 
 html[data-theme="dark"] .btn {
@@ -517,4 +518,8 @@ html[data-theme="dark"]
 html[data-theme="dark"] .guilabel {
   background-color: #343434;
   border-color: #4d4d4d;
+}
+
+html[data-theme="dark"] .filter-invert {
+  filter: invert(1);
 }
